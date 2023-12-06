@@ -43,8 +43,9 @@ except ImportError as e:
         print(e, file=sys.stderr)
 
 try:
-    import d4rl.gym_bullet
-    import d4rl.pointmaze_bullet
+    # import d4rl.gym_bullet
+    # import d4rl.pointmaze_bullet
+    ...
 except ImportError as e:
     if not SUPPRESS_MESSAGES:
         print(_ERROR_MESSAGE % 'GymBullet', file=sys.stderr)
