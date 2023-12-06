@@ -60,7 +60,7 @@ setup(
         ]
     },
     install_requires=[
-        "gym<0.24.0",
+        "gym<=0.26.2",
         "numpy",
         "mujoco_py",
         "pybullet",
