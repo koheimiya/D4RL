@@ -69,5 +69,8 @@ setup(
         "click",  # adept_envs dependency
         "dm_control>=1.0.3",
         "mjrl @ git+https://github.com/aravindr93/mjrl@master#egg=mjrl",
+        "cython<3",  # implicitly required for mujoco-py
+        "patchelf>=0.17.2.1",  # implicitly required for mujoco-py
+        "six>=1.16.0",  # implicitly required for mujoco-based envs
     ],
 )
